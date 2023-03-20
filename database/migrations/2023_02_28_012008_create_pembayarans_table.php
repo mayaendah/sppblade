@@ -16,7 +16,7 @@ return new class extends Migration
             $table->integer('id_user');
             $table->integer('id_siswa');
             $table->text('tgl_bayar');
-            $table->integer('id_bulan');
+            $table->string('bulan');
             $table->integer('thn_bayar');
             $table->integer('id_spp');
             $table->integer('jumlah_bayar');
